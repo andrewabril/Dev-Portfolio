@@ -1,0 +1,26 @@
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.wrapper {
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.tagline {
+    margin-right: 50px;
+}
+
+.tagline-hero {
+    height: 400px;
+    width: 400px;
+    margin-left: 50px;
+}
