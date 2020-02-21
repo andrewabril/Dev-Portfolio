@@ -1,6 +1,10 @@
 h1 {
-    font-size: 32px;
+    font-size: 48px;
     margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
 }
 
 .wrapper {
@@ -16,11 +20,11 @@ h1 {
 }
 
 .tagline {
-    margin-right: 50px;
+    margin-right: 25px;
 }
 
 .tagline-hero {
     height: 400px;
     width: 400px;
-    margin-left: 50px;
+    margin-left: 25px;
 }
