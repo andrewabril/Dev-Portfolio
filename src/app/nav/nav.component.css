@@ -1,7 +1,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    margin: 24px;
 }
 
 .nav {
@@ -9,5 +9,5 @@
 }
 
 .nav-item {
-    margin-left: 20px;
+    margin-left: 24px;
 }

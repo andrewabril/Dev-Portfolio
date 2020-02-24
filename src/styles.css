@@ -48,6 +48,18 @@ table {
 	border-spacing: 0;
 }
 
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
 /* Application CSS */
 
 /*
@@ -85,21 +97,38 @@ Spacing scale:
 
 */
 
+:root {
+	--primary-color: rgb(33, 106, 157);
+	--secondary-color: rgb(48, 170, 157);
+	--tertiary-color: rgb(190, 91, 111);
+}
+
 body {
 	font-family: 'Roboto';
 }
 
+input, button, textarea, select {
+	font-family: 'Roboto';
+}
+
 h1 {
+	font-size: 48px;
 	line-height: 1;
-	margin-bottom: 24px;
+	margin: 16px 0 16px;
 }
 
 p {
 	/* width: 30em; 20-35em is ideal */
 	align-items: baseline;
 	line-height: 1.5em;
+	margin: 0 0 16px;
+}
+
+ul {
+	margin: 0 0 24px;
 }
 
 img {
 	width: 100%;
 }
+
