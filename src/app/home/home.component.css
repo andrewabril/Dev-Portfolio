@@ -1,6 +1,5 @@
 h1 {
     font-size: 48px;
-    margin-bottom: 10px;
 }
 
 p {
@@ -9,22 +8,27 @@ p {
 
 .wrapper {
     height: 100vh;
+    width: 100%;
 }
 
-.content {
+.home {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top: 10vh;
+    height: 85vh;
+    /* border: 1px solid red; */
 }
 
 .tagline {
-    margin-right: 25px;
+    /* border: 1px solid red; */
+    /* margin-right: 25px; */
+    width: 450px;
 }
 
 .tagline-hero {
-    height: 400px;
-    width: 400px;
-    margin-left: 25px;
+    /* border: 1px solid red; */
+    max-height: 400px;
+    max-width: 400px;
+    /* margin-left: 25px; */
 }
