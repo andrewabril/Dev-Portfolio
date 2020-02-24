@@ -1,17 +1,17 @@
 <div class="wrapper">
     <app-nav></app-nav>
 
-    <div class="contact">
-        <form #myform = "ngForm" (ngSubmit) = "onSubmit(myform)" >
-            <input type = "text" name = "fullName" placeholder = "Your full name" ngModel>
-            <br/>
-            
-            <input type = "email" name = "email" placeholder = "Your email" ngModel>
-            <br/>
-            
-            <textarea name = "message" placeholder = "Your message" ngModel></textarea>
-            <br/>
-            <input type = "submit" value = "Send">
-        </form>
-    </div>    
+    <form class="contact" (ngSubmit)="onSubmit()">
+        <input class="contact-item input-field" type="text" name="fullName" placeholder="Name" ngModel>
+        
+        <input class="contact-item input-field" type="email" name="email" placeholder="Email" ngModel>
+
+        <input class="anti-spam" type="text" name="url">
+        
+        <input class="contact-item input-field" type="text" name="subject" placeholder="Subject" ngModel>
+
+        <textarea class="contact-item input-field" name="message" placeholder="Message" ngModel></textarea>
+
+        <input class="contact-item submit" type="submit" value="Send">
+    </form>
 </div>
