@@ -1,37 +1,72 @@
+.resume, .about, .contact, .logo {
+    padding: 24px;
+}
+
 .about {
     color: var(--tertiary-color);
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding: 24px;
+.about, .contact {
+    bottom: 0;
 }
 
-.nav {
-    align-items: center;
-    background-color: var(--primary-color);
-    border-left: 1px solid;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    /* font-weight: bold; */
-    height: 100vh;
-    justify-content: space-between;    
-    position: fixed;
-    right: 0px;
-    width: 100px;
-}
-
-.nav-item {
-    padding: 24px;
+.resume, .logo {
+    top: 0;
 }
 
 .icons {
+    bottom: 50%;
     display: flex;
     flex-direction: column;
 }
 
 .icon {
     width: 1.25rem;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: var(--primary-color);
+    color: white;
+    /* width: 150px; */
+}
+
+.nav-left {
+    order: 0;
+    /* flex: 0 0 100px; */
+}
+
+.sticky {
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+.nav-right {
+    border-left: 1px solid white;
+    order: 2;
+    /* flex: 0 0 100px; */
+    /* right: 0px; */
+}
+
+.wrapper {
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+    width: 100%;
+}
+
+:host ::ng-deep [portfolio-content] {
+    order: 1;
+    padding: 1rem;
+    /* flex-grow: 1; */
+    /* overflow: auto; */
+    /* height: auto; */
+    display: block;
+    /* flex: 1 1 auto; */
+    /* width: 500px; */
 }

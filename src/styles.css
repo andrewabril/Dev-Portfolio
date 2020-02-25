@@ -118,20 +118,16 @@ input, button, textarea, select {
 }
 
 h1 {
-	font-size: 48px;
+	/* font-size: 48px;
 	line-height: 1;
-	margin: 16px 0 16px;
+	margin: 16px 0 16px; */
 }
 
 p {
 	/* width: 30em; 20-35em is ideal */
-	align-items: baseline;
+	/* align-items: baseline;
 	line-height: 1.5em;
-	margin: 0 0 16px;
-}
-
-ul {
-	/* margin: 0 0 24px; */
+	margin: 0 0 16px; */
 }
 
 img {
