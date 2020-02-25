@@ -1,13 +1,37 @@
+.about {
+    color: var(--tertiary-color);
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 24px;
+    padding: 24px;
 }
 
 .nav {
+    align-items: center;
+    background-color: var(--primary-color);
+    border-left: 1px solid;
+    color: white;
     display: flex;
+    flex-direction: column;
+    /* font-weight: bold; */
+    height: 100vh;
+    justify-content: space-between;    
+    position: fixed;
+    right: 0px;
+    width: 100px;
 }
 
 .nav-item {
-    margin-left: 24px;
+    padding: 24px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    width: 1.25rem;
 }

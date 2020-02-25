@@ -60,6 +60,12 @@ html {
 	box-sizing: inherit;
 }
 
+a, a:visited, a:hover, a:active, a:focus {
+	color: inherit;
+	outline: none;
+	text-decoration: none;
+}
+
 /* Application CSS */
 
 /*
@@ -125,7 +131,7 @@ p {
 }
 
 ul {
-	margin: 0 0 24px;
+	/* margin: 0 0 24px; */
 }
 
 img {
