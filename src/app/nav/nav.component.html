@@ -1,36 +1,39 @@
 <div class="wrapper">
     <ul class="nav nav-left">
-        <li class="logo sticky">
-            andrew
-            <br>
-            abril
+        <li class="nav-item logo sticky">
+            <a href="">
+                andrew
+                <br>
+                abril
+            </a>
         </li>
-        <li class="contact sticky">
-            <a href="" target="_blank">
-                <img src="../../assets/icons/envelope-regular.svg">
+        <li class="nav-item contact sticky">
+            <a href="">
+                <img class="contact-icon" src="../../assets/icons/envelope-regular.svg">
             </a>
         </li>
     </ul>
 
 
-<ng-content select="[portfolio-content]"></ng-content>
+    <!-- <ng-content select="[portfolio-content]"></ng-content> -->
+    <router-outlet></router-outlet>
 
     <ul class="nav nav-right">
-        <li class="resume sticky"><a href="../../assets/docs/Andrew_Resume_Web.pdf" target="_blank">resume</a></li>
+        <li class="nav-item resume sticky"><a href="../../assets/docs/Andrew_Resume_Web.pdf" target="_blank">resume</a></li>
         
-        <div class="icons sticky">
-            <li class="icon">
+        <div class="nav-item social-media sticky">
+            <li class="social-media-icon">
                 <a href="https://www.linkedin.com/in/andrewabril" target="_blank">
                     <img src="../../assets/icons/linkedin-in-brands.svg">
                 </a>
             </li>
-            <li class="icon">
+            <li class="social-media-icon">
                 <a href="https://github.com/andrewabril" target="_blank">
                     <img src="../../assets/icons/github-brands.svg">
                 </a>
             </li>
         </div>
-        <li class="about sticky">about</li>
+        <li class="nav-item about sticky"><a href="">about</a></li>
     </ul>
 </div>
 

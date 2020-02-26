@@ -124,10 +124,9 @@ h1 {
 }
 
 p {
-	/* width: 30em; 20-35em is ideal */
-	/* align-items: baseline;
+	/* width: 30em; /* 20-35em is ideal */
+	align-items: baseline;
 	line-height: 1.5em;
-	margin: 0 0 16px; */
 }
 
 img {
