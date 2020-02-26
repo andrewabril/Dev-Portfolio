@@ -107,6 +107,8 @@ Spacing scale:
 	--primary-color: rgb(33, 106, 157);
 	--secondary-color: rgb(48, 170, 157);
 	--tertiary-color: rgb(190, 91, 111);
+
+	--white: #F7F6F5;
 }
 
 body {
@@ -118,15 +120,16 @@ input, button, textarea, select {
 }
 
 h1 {
-	/* font-size: 48px;
-	line-height: 1;
-	margin: 16px 0 16px; */
+	font-size: 3.5em;
+    line-height: 1.2em;
+    margin-top: 96px;
 }
 
 p {
 	/* width: 30em; /* 20-35em is ideal */
 	align-items: baseline;
 	line-height: 1.5em;
+	margin-top: 32px;    
 }
 
 img {

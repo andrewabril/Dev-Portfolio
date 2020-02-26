@@ -1,11 +1,8 @@
-.header {
-    font-size: 3.5em;
-    line-height: 1.2em;
-    margin-top: 96px;
+.header p {
+    margin-top: 0;
 }
 
 .intro, .side, .fun {
-    margin-top: 48px;
     width: 30em;
 }
 
@@ -17,5 +14,3 @@ ul li {
 	background-size: 1.6rem 1.6rem;
 	background-repeat: no-repeat;
 }
-
-/* #F7F6F5 */

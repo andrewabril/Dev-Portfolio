@@ -1,27 +1,27 @@
 <div class="wrapper">
     <ul class="nav nav-left">
-        <li class="nav-item logo sticky">
-            <a href="">
+        <li class="logo sticky" routerLinkActive="active">
+            <a routerLink="/home">
                 andrew
                 <br>
                 abril
             </a>
         </li>
-        <li class="nav-item contact sticky">
-            <a href="">
+        <li class="contact sticky" routerLinkActive="active">
+            <a routerLink="/contact">
                 <img class="contact-icon" src="../../assets/icons/envelope-regular.svg">
             </a>
         </li>
     </ul>
 
-
-    <!-- <ng-content select="[portfolio-content]"></ng-content> -->
-    <router-outlet></router-outlet>
-
+    <div class="content">
+        <router-outlet></router-outlet>
+    </div>
+    
     <ul class="nav nav-right">
-        <li class="nav-item resume sticky"><a href="../../assets/docs/Andrew_Resume_Web.pdf" target="_blank">resume</a></li>
+        <li class="resume sticky"><a href="../../assets/docs/Andrew_Resume_Web.pdf" target="_blank">resume</a></li>
         
-        <div class="nav-item social-media sticky">
+        <div class="social-media sticky">
             <li class="social-media-icon">
                 <a href="https://www.linkedin.com/in/andrewabril" target="_blank">
                     <img src="../../assets/icons/linkedin-in-brands.svg">
@@ -33,7 +33,7 @@
                 </a>
             </li>
         </div>
-        <li class="nav-item about sticky"><a href="">about</a></li>
+        <li class="about sticky" routerLinkActive="active"><a routerLink="/about">about</a></li>
     </ul>
 </div>
 
