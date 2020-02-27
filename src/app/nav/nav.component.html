@@ -1,40 +1,40 @@
 <div class="wrapper">
-    <ul class="nav nav-left">
-        <li class="logo sticky" routerLinkActive="active">
-            <a routerLink="/home">
-                andrew
-                <br>
-                abril
-            </a>
-        </li>
-        <li class="contact sticky" routerLinkActive="active">
-            <a routerLink="/contact">
-                <img class="contact-icon" src="../../assets/icons/envelope-regular.svg">
-            </a>
-        </li>
+
+    <div class="logo" routerLinkActive="active">
+        <a routerLink="/home">
+            andrew
+            <br>
+            abril
+        </a>
+    </div>
+
+    <ul class="nav">
+        <li class="resume"><a href="../../assets/docs/Andrew_Resume_Web.pdf" target="_blank">resume</a></li>        
+        <li class="about" routerLinkActive="active"><a routerLink="/about">about</a></li>
     </ul>
+
+    <div class="contact sticky" routerLinkActive="active">
+        <a routerLink="/contact">
+            <img class="contact-icon" src="../../assets/icons/envelope-regular.svg">
+        </a>
+    </div>
 
     <div class="content">
         <router-outlet></router-outlet>
     </div>
-    
-    <ul class="nav nav-right">
-        <li class="resume sticky"><a href="../../assets/docs/Andrew_Resume_Web.pdf" target="_blank">resume</a></li>
-        
-        <div class="social-media sticky">
-            <li class="social-media-icon">
-                <a href="https://www.linkedin.com/in/andrewabril" target="_blank">
-                    <img src="../../assets/icons/linkedin-in-brands.svg">
-                </a>
-            </li>
-            <li class="social-media-icon">
-                <a href="https://github.com/andrewabril" target="_blank">
-                    <img src="../../assets/icons/github-brands.svg">
-                </a>
-            </li>
+
+    <div class="social-media">
+        <div class="social-media-icon">
+            <a href="https://www.linkedin.com/in/andrewabril" target="_blank">
+                <img src="../../assets/icons/linkedin-in-brands.svg">
+            </a>
         </div>
-        <li class="about sticky" routerLinkActive="active"><a routerLink="/about">about</a></li>
-    </ul>
+        <div class="social-media-icon">
+            <a href="https://github.com/andrewabril" target="_blank">
+                <img src="../../assets/icons/github-brands.svg">
+            </a>
+        </div>
+    </div>
 </div>
 
 
