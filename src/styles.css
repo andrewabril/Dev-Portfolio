@@ -104,7 +104,8 @@ Spacing scale:
 */
 
 :root {
-	--primary-color: rgb(33, 106, 157);
+	--primary-color: hsl(204, 69%, 35%);
+	--primary-color-gray: hsl(0, 0%, 0%);
 	--secondary-color: rgb(48, 170, 157);
 	--tertiary-color: rgb(190, 91, 111);
 
@@ -117,6 +118,11 @@ Spacing scale:
 
 body, input, button, textarea, select {
 	font-family: 'Roboto';
+}
+
+body {
+	background-color: var(--primary-color);
+	color: var(--white);
 }
 
 h1 {
