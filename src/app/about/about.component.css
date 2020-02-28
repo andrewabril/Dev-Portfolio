@@ -3,10 +3,6 @@
     max-width: 35em;
 }
 
-.header-secondary {
-    color: hsl(204, 45%, 80%);
-}
-
 .intro, .side, .fun {
     width: 100%;
     max-width: 35em;

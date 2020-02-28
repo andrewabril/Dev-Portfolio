@@ -6,8 +6,9 @@
     height: 100%;
 }
 
-.logo, .nav {        
-    padding-top: var(--page-padding);;
+.logo, .nav {
+    color: var(--primary-color);
+    padding-top: var(--page-padding);
 }
 
 .logo {

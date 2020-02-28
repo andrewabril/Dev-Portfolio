@@ -111,7 +111,7 @@ Spacing scale:
 	/* --secondary-color: rgb(48, 170, 157); */
 	--secondary-color: hsl(348, 43%, 55%);
 	/* --tertiary-color: hsl(348, 43%, 55%); */
-	--tertiary-color: hsl(21, 100%, 69%);
+	--tertiary-color: hsl(22, 85%, 66%);
 
 	--white: hsl(210, 0%, 100%); /*#F7F6F5;*/
 	--gray-light: hsl(210, 0%, 75%);
@@ -129,14 +129,20 @@ body, input, button, textarea, select {
 }
 
 body {
-	background-color: var(--primary-color);
-	color: var(--white);
+	/* background-image: url(../src/assets/images/circuit-board.svg); */
+	/* background-color: var(--primary-color); */
+	/* color: var(--white); */
 }
 
 h1 {
+	color: var(--primary-color);
 	font-size: 1.5em;
     line-height: 1.2em;
     font-weight: 600;
+}
+
+h2 {
+    color: var(--secondary-color);
 }
 
 p {
