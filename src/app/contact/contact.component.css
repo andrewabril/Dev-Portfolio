@@ -1,7 +1,5 @@
 .contact-header p {
-    /* background: var(--primary-color); */
-    margin-top: 0;
-    margin-bottom: 32px;
+    margin-bottom: 2em;
 }
 
 .contact {
@@ -34,6 +32,7 @@ textarea {
     padding: 10px 50px;
     text-transform: uppercase;
     font-weight: normal;
+    margin-bottom: 0;
 }
 
 .anti-spam {

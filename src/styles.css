@@ -110,60 +110,38 @@ Spacing scale:
 
 	--white: #F7F6F5;
 
-	--page-padding: 2rem;
+	--page-padding: 2em;
 	--social-media-icon-size: 1.5rem;
 	--social-media-icon-margin: 0.5rem;
 }
 
-body {
-	font-family: 'Roboto';
-}
-
-input, button, textarea, select {
+body, input, button, textarea, select {
 	font-family: 'Roboto';
 }
 
 h1 {
 	font-size: 1.5em;
     line-height: 1.2em;
-    /* margin-top: 96px; */
+    font-weight: 600;
 }
 
 p {
-	/* width: 30em; /* 20-35em is ideal */
 	align-items: baseline;
 	line-height: 1.5em;
-	/* margin-top: 32px; */
 }
 
 img {
 	width: 100%;
 }
 
-/* @media (min-width: 1200px) {
+@media (min-width: 750px) {
 	h1 {
-		font-size: 4em;
+		font-size: 2em;
 	}
 }
 
-@media (max-width: 950px) {
+@media (min-width: 1000px) {
 	h1 {
-		font-size: 2.75em;
+		font-size: 3em;
 	}
 }
-
-@media (max-width: 850px) {
-	html {
-		font-size: 14px;
-	}
-}
-
-@media (max-width: 750px) {
-	html {
-		font-size: 12px;
-	}
-
-	h1 {
-		font-size: 1.25em;
-	}
-} */

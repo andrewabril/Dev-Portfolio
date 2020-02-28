@@ -1,6 +1,6 @@
 .header {
     margin-bottom: 2rem;
-    max-width: 16em;
+    max-width: 35em;
 }
 
 .intro, .side, .fun {
@@ -9,13 +9,20 @@
     margin-bottom: 1.5rem;
 }
 
-
-
 ul li {
 	line-height: 1.5em;
-	padding-left: 2rem;
+	padding-left: 2em;
 	background-image: url(../../assets/icons/caret-right-solid.svg);
 	background-position: 0 0;
-	background-size: 2.5rem 1.6rem;
-	background-repeat: no-repeat;
+	background-size: 2.5em 1.6em;
+    background-repeat: no-repeat;
+    max-width: 20em;
+}
+
+ul {
+    padding-top: 0.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
 }
