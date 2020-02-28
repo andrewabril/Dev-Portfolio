@@ -104,13 +104,20 @@ Spacing scale:
 */
 
 :root {
-	--primary-color: hsl(204, 69%, 35%);
-	--primary-color-gray: hsl(0, 0%, 0%);
-	--secondary-color: rgb(48, 170, 157);
-	--tertiary-color: rgb(190, 91, 111);
+	--primary-color: hsl(204, 69%, 25%);
+	/* --primary-color: hsl(204, 69%, 35%); */
+	/* --primary-color: hsl(190, 80%, 33%); */
+	--primary-color-light: hsl(204, 50%, 35%);
+	/* --secondary-color: rgb(48, 170, 157); */
+	--secondary-color: hsl(348, 43%, 55%);
+	/* --tertiary-color: hsl(348, 43%, 55%); */
+	--tertiary-color: hsl(21, 100%, 69%);
 
-	--white: #F7F6F5;
-
+	--white: hsl(210, 0%, 100%); /*#F7F6F5;*/
+	--gray-light: hsl(210, 0%, 75%);
+	--gray: hsl(210, 0%, 50%);
+	--gray-dark: hsl(210, 0%, 25%);
+	
 	--page-padding: 2em;
 	--social-media-icon-size: 1.5rem;
 	--social-media-icon-margin: 0.5rem;

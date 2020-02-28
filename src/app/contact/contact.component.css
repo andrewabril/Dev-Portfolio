@@ -14,10 +14,13 @@
     border: 1px solid #e5e5e5;
     padding: 15px 24px;
     margin-bottom: 24px;
+    box-shadow:
+        0 -2px 0 hsla(0, 0%, 100%, 0.15),
+        inset 0 2px 2px hsla(0, 0%, 0%, 0.1);
 }
 
 .input-field {
-    color: #aaa;
+    color: var(--gray-dark);
 }
 
 textarea {
@@ -27,12 +30,18 @@ textarea {
 .submit {
     background-color: var(--secondary-color);
     border: none;
-    color: #fff;
+    color: var(--white);
     font-size: 1em;
     padding: 10px 50px;
     text-transform: uppercase;
-    font-weight: normal;
     margin-bottom: 0;
+    box-shadow: 0 1px 0 var(--primary-color-light);
+}
+
+.submit:active {
+    box-shadow: inset -1px -1px 0 rgba(255, 255, 255, .6),
+                inset 1px 1px 0 rgba(0, 0, 0, .6);
+    /* box-shadow: 0 1px 3px hsla(0, 0%, 0%, 0.2); */
 }
 
 .anti-spam {
