@@ -165,3 +165,9 @@ img {
 		font-size: 3em;
 	}
 }
+
+@media (min-width: 1200px) {
+	h1 {
+		font-size: 4em;
+	}
+}
