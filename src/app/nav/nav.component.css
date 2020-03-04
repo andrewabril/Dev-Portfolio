@@ -22,7 +22,7 @@
     padding-left: var(--page-padding);
 }
 
-.logo:hover {
+.logo:hover, .resume:hover {
     color: var(--tertiary-color);
 }
 
