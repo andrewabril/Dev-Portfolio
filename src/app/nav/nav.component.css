@@ -22,7 +22,7 @@
     padding-left: var(--page-padding);
 }
 
-.logo:hover, .resume:hover {
+.logo:hover, .resume:hover, .about:hover {
     color: var(--tertiary-color);
 }
 
@@ -30,7 +30,7 @@
     margin: 0.25em 0;
 }
 
-.about {
+.active-route {
     color: var(--tertiary-color);
 }
 

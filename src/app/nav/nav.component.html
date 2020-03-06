@@ -1,6 +1,6 @@
-<div class="wrapper">
+<nav class="wrapper">
 
-    <div class="logo" routerLinkActive="active">
+    <div class="logo">
         <a routerLink="/about">
             andrew
             <div class="logo-spacing"></div>
@@ -10,33 +10,31 @@
 
     <ul class="nav">
         <li class="resume"><a href="../../assets/docs/Andrew_Resume_Web.pdf" target="_blank">resume</a></li>        
-        <li class="about" routerLinkActive="active"><a routerLink="/about">about</a></li>
+        <li class="about" routerLinkActive="active-route"><a routerLink="/about">about</a></li>
     </ul>
 
-    <div class="contact" routerLinkActive="active">
-        <a routerLink="/contact">
-            <img class="contact-icon contact-closed" src="../../assets/icons/envelope-regular.svg">
-            <img class="contact-icon contact-open" src="../../assets/icons/envelope-open-regular.svg">
-        </a>
-    </div>
-
-    <div class="content">
+    <a class="contact" routerLink="/contact" routerLinkActive="active-route">
+        <img class="contact-icon contact-closed" src="../../assets/icons/envelope-regular.svg" alt="a closed envelope" title="contact">
+        <img class="contact-icon contact-open" src="../../assets/icons/envelope-open-regular.svg" alt="an open envelope" title="contact">
+    </a>
+    
+    <main class="content">
         <router-outlet></router-outlet>
-    </div>
+    </main>
 
     <div class="social-media">
         <div class="social-media-icon">
             <a href="https://www.linkedin.com/in/andrewabril" target="_blank">
-                <img src="../../assets/icons/linkedin-in-brands.svg">
+                <img src="../../assets/icons/linkedin-in-brands.svg" alt="linkedin logo" title="linkedin">
             </a>
         </div>
         <div class="social-media-icon">
             <a href="https://github.com/andrewabril" target="_blank">
-                <img src="../../assets/icons/github-brands.svg">
+                <img src="../../assets/icons/github-brands.svg" alt="github logo" title="github">
             </a>
         </div>
     </div>
-</div>
+</nav>
 
 
 

@@ -1,6 +1,9 @@
 .header {
     margin-bottom: 2rem;
-    /* max-width: 45em; */
+}
+
+.header-secondary {
+    color: var(--secondary-color);
 }
 
 .intro, .side, .fun {
