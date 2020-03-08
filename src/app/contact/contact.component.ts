@@ -24,6 +24,9 @@ export class ContactComponent implements OnInit {
       this.contactForm.value.userData.subject,
       this.contactForm.value.userData.body);
 
-    this.contactService.sendEmail(contactInfo);
+    const antiSpam = this.contactForm.value.userData.url;
+    if (antiSpam === '') {
+      this.contactService.sendEmail(contactInfo);
+    }
   }
 }
