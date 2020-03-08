@@ -8,6 +8,7 @@ import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { HttpClientModule } from '@angular/common/http';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -27,6 +28,7 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     FormsModule,
+    HttpClientModule,
     RouterModule.forRoot(
       appRoutes
     )

@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { Contact } from './contact';
+import { ContactService } from './contact.service';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-contact',
@@ -7,14 +9,21 @@ import { Contact } from './contact';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
+  @ViewChild('f', { static: false }) contactForm: NgForm;
   contact: Contact;
 
-  constructor() { }
+  constructor(private contactService: ContactService) { }
 
   ngOnInit(): void {
   }
 
   onSubmit() {
-    return;
+    const contactInfo = new Contact(
+      this.contactForm.value.userData.name,
+      this.contactForm.value.userData.email,
+      this.contactForm.value.userData.subject,
+      this.contactForm.value.userData.body);
+
+    this.contactService.sendEmail(contactInfo);
   }
 }

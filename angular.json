@@ -158,7 +158,9 @@
             "browserTarget": "Dev-Portfolio:build:production",
             "serverTarget": "Dev-Portfolio:server:production",
             "routes": [
-              "/"
+              "/",
+              "/about",
+              "/contact"
             ]
           },
           "configurations": {

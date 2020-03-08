@@ -1,6 +1,9 @@
 export class Contact {
-    name: string;
-    toEmail: string;
-    subject: string;
-    body: string;
+
+    constructor(
+        public name: string,
+        public email: string,
+        public subject: string,
+        public body: string
+    ) {}
 }
